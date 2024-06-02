@@ -1,0 +1,210 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap');
+
+body {
+  font-family: 'Fondamento', cursive;
+  background-image: url('https://wallpaper.forfun.com/fetch/8b/8bd0a662d3678fa9c7407ffb7ed0d9a4.jpeg?w=1470&r=0.5625');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  padding: 20px;
+  color: rgb(0, 86, 179); 
+}
+
+.header-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.results-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1, h2 {
+  font-family: 'Fondamento', cursive;
+  color: rgb(0, 86, 179); 
+  font-size: 2em; 
+  font-weight: bold; 
+}
+h3 {
+  font-family: 'Fondamento', cursive;
+  font-size: 2em; 
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: calc(100% - 100px);
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: 'Fondamento', cursive;
+  font-size: 1.2em; 
+}
+input[type="text"] {
+  font-size: 1em; 
+}
+
+button {
+  padding: 10px 20px;
+  background: #007bff;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Fondamento', cursive;
+  font-size: 1.2; 
+  font-weight: bold; 
+}
+button {
+  font-size: 1em; 
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.results {
+  display: flex;
+  justify-content: space-between;
+}
+
+.results:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  margin: 10px;
+  background: rgba(255, 255, 255, 0.2); 
+  border-radius: 8px;
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+#activities-list {
+  list-style: none;
+  padding: 0;
+}
+
+#activities-list li {
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 1.2em; 
+  color:#fff;
+  text-shadow: 3px 3px #000;
+  font-weight: bold;
+}
+
+.container {
+  font-family: 'Fondamento', cursive;
+  padding: 20px;
+  font-size: 1.2em; 
+  font-weight: bold; 
+}
+.container {
+  font-size: 18px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+  font-size: 1.2em; 
+  font-weight: bold; 
+}
+.card {
+  font-size: 18px;
+}
+
+#activities {
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  color:  rgb(0, 86, 179);
+  font-size: 1.2em; 
+  font-weight: bold; 
+}
+
+.date {
+  float:left; 
+  display:inline; 
+  width: 50%;
+}
+
+.buttons{
+  margin-bottom: 4px;
+}
+
+#history{
+  padding: 10px 20px;
+  background: #007bff;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Fondamento', cursive;
+  font-size: 1.2; 
+  font-weight: bold; 
+  margin-left: 20px;
+}
+
+#history{
+  font-size: 1em; 
+}
+
+#history:hover{
+  background: #0056b3;
+}
+
+.close-button{
+  color: white;
+  border-radius: 10px;
+  background-color: #007bff90;
+}
+
+.header4{
+  font-family: 'Fondamento', cursive;
+  font-size: 2em; 
+  font-weight: bold;
+}
+
+#example2{
+  background-color: rgba(215, 190, 24, 0.727);
+  border-radius: 20px;
+}
+.history-card{
+  background-color: rgba(255, 255, 0, 0.475);
+}
+
+#myModal{
+  background-color: rgba(215, 30, 24, 0.727);
+  border-radius: 20px;
+}
+#error-message{
+  font-size: 30px;
+  color:red;
+}
+#locName{
+  font-weight: bold;
+  font-size:x-large;
+  
+}
